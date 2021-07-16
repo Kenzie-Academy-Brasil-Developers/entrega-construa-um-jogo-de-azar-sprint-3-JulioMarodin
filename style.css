@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#textInput {
+    margin-left: 15%;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#jogar {
+    color: #fff;
+    background-color: #0077b6;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 22%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#jogar:hover {
+    background-color: #fff;
+    color: #0077b6;
+    border: 1px solid #0077b6;
+}
+
+@media only screen and (min-width: 800px) {
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #textInput {
+        margin-top: 20px;
+        width: 500px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    #jogar {
+        margin-top: 7%;
+        margin-left: 20%;
+    }
+
+    #superior {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
