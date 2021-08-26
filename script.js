@@ -4,7 +4,6 @@ button.addEventListener("click", function() {
     const divResposta = document.getElementById("superior");
     
     const numAleatorio = Math.round(Math.random() * 10);
-    console.log(numAleatorio);
 
     switch(numAleatorio) {
         case 1: 
@@ -28,16 +27,7 @@ button.addEventListener("click", function() {
         case 7:
             divResposta.innerText = "Acho que sim, porém mais importante que isso é saber que galinhas evoluiram dos dinossauros pra virar nuggets.";
             break;
-        case 8:
-            divResposta.innerText = "Não sei, não me importo.";
-            break;
-        case 9:
+        default:
             divResposta.innerText = "Não entendi sua pergunta, tente de novo só que dessa vez tente digitar com o nariz, é um pouco mais difícil mas vale a pena.";
-            break;
-        case 10:
-            divResposta.innerText = "Só se for nos seus sonhos.";
-            break;
-        default :
-            divResposta.innerText = "Se você estiver bêbado sim.";
     }
 })
